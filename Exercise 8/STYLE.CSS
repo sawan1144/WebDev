@@ -1,0 +1,54 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+}
+
+.container {
+   height: 80vh;
+   width: 90vw;
+   background-color: bisque;
+   position: relative;
+   margin: 30px;
+}
+
+.ball {
+   height: 80px;
+   width: 80px;
+   background-color: crimson;
+   border-radius: 40px;
+   position: absolute;
+   bottom: 0;
+   animation: ballanimation;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: 2;
+}
+
+@keyframes ballanimation {
+   0% {
+      transform: translate(0, 0);
+   }
+
+   25% {
+      transform: translate(100px, -400px);
+   }
+
+   50% {
+      transform: translate(200px, 0px);
+   }
+
+   75% {
+      transform: translate(300px, -200px);
+   }
+
+   100% {
+      transform: translate(400px, 0px);
+   }
+}

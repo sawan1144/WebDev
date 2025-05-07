@@ -1,0 +1,342 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-image: url('/images/bg.jpg');
+    height: 80vh;
+    position: relative;
+}
+
+.main .opbox{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.75;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main .nav{
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    height: 90px;
+}
+
+.nav img{
+    width: 190px;
+    height: 80px;
+    transform: translate(-35%);
+}
+
+.fronttext{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 25px;
+    padding: 0px 30px;
+}
+
+.fronttext> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.fronttext :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fronttext :nth-child(3){
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.strip{
+    height: 8px;
+    background-color: rgb(207, 0, 0);
+    transform: translateY(-92px);
+}
+
+.btns{
+    font-weight: bolder;
+    color: white;
+}    
+
+.red1{
+    background-color: red;
+    padding: 8px 14px;
+}
+.red2{
+    background-color: red;
+    padding: 13px 24px;
+    border-radius: 6px;
+}
+.engb{
+    background-color:  rgba(40, 39, 39, 0.2);
+    padding: 8px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main input{
+    padding: 17px 60px;
+   transform: translateY(-4px);
+   background-color: rgba(23, 23, 23, 0.4);
+   color: white;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page2> :nth-child(1){
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.card{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.card1{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card2{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px; 
+    overflow: hidden;  
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card3{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;   
+}
+.card3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card4{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px; 
+    overflow: hidden;   
+}
+.card4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card5{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card6{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card6 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page2> :nth-child(3){
+    color: white;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.txtcard{
+    display: flex;
+    gap: 30px;
+}
+
+.tcard{
+    height: 280px;
+    width: 320px;
+    margin: 10px 0px;
+    margin-left: 120px;
+    border-radius: 15px;padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    background: linear-gradient(
+        149deg,
+        #192247 0%,
+        #210e17 96.86%);
+        position: relative;
+}
+
+.tcard :nth-child(1){
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.tcard img{
+    height: 65px;
+    width: 70px;
+    object-fit: fill;
+    bottom: 25px;
+    right: 25px;
+    position: absolute;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.faq{
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.faq> :nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bars{
+    height: 62px;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    position: relative;
+}
+
+.bars> :nth-child(1){
+    font-weight: lighter;
+    font-size: 65px;
+    position: absolute;
+    right: 30px;
+}
+
+#pg2ft{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-size: 19px;
+}
+
+#gtstd :nth-child(1){
+    width: 40vw;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    font-size: 20px;
+    padding-left: 20px;
+}
+#gtstd :nth-child(2){
+   padding: 13px 35px;
+   font-size: 22px;
+}
+
+.footer{
+    height: 50vh;
+    color: rgba(255, 255, 255, 0.736);
+    padding: 20px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.qna{
+    display: flex;
+    gap: 200px;
+    text-decoration: underline;
+}
+.qna div p{
+   margin-top: 18px;
+}
+
+.last{
+    height: 40px;
+    width: 110px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.666);
+    border-radius: 5px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
